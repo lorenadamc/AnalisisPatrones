@@ -1,4 +1,4 @@
-# AnalisisPatrones
+# Analisis de Patrones
 
 _Analisis mediante casos de uso, diagrama de actividades y diagrama de clases de: **Flyweight** y **Composite**._
 
