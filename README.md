@@ -4,18 +4,23 @@ _Analisis mediante casos de uso, diagrama de actividades y diagrama de clases de
 
 ## Patrones de Diseño ⚙️
 
-### Patrones de creación
+### Patrones estructurales
 
-Los patrones de creación abstraen la forma en la que se crean los objetos, permitiendo tratar las clases a crear de forma genérica dejando para más tarde la decisión de qué clases crear o cómo crearlas.
+Tratan de conseguir que cambios en los requisitos de la aplicación no ocasionen cambios en las relaciones entre los objetos. Lo fundamental son las relaciones de uso entre los objetos, y, éstas están determinadas por las interfaces que soportan los objetos.
 
-- **Abstract Factory:** Proporciona una interfaz para crear familias de objetos o que dependen entre sí, sin especificar sus clases concretas.
+Estudian como se relacionan los objetos en tiempo de ejecución. Sirven para diseñar las interconexiones entre los objetos.
 
-![CasosdeusoComposite](imagenes/Ejemplo Composite.jpeg)
+- **Flyweight:** Usa el compartimiento para permitir un gran número de objetos de grano fino de forma eficiente.
 
-(![](imagenes/Diagrama de Clases - Composite.png))
+![CasosdeusoFlyweight](https://github.com/lorenadamc/AnalisisPatrones/blob/c34bc14ddfaecbf9807aea7fd433488e3750c3e3/imagenes/Ejemplo%20Flyweight.png)
+![ActividadesFlyweight](https://github.com/lorenadamc/AnalisisPatrones/blob/c34bc14ddfaecbf9807aea7fd433488e3750c3e3/imagenes/Diagrama%20de%20Actividades%20-%20Patr%C3%B3n%20Flyweight.png)
+![ClasesFlyweight](https://github.com/lorenadamc/AnalisisPatrones/blob/c34bc14ddfaecbf9807aea7fd433488e3750c3e3/imagenes/Diagrama%20de%20Clases%20-%20Flyweight.png)
 
-- **Builder:** Separa la construcción de un objeto complejo de su representación, de forma que el mismo proceso de construcción pueda crear diferentes representaciones.
 
+- **Composite:** Combina objetos en estructuras de árbol para representar jerarquías de parte-todo. Permite que los clientes traten de manera uniforme a los objetos individuales y a los compuestos.
+![CasosdeusoComposite](https://github.com/lorenadamc/AnalisisPatrones/blob/c34bc14ddfaecbf9807aea7fd433488e3750c3e3/imagenes/Ejemplo%20Composite.png)
+![ActividadesComposite](https://github.com/lorenadamc/AnalisisPatrones/blob/c34bc14ddfaecbf9807aea7fd433488e3750c3e3/imagenes/Diagrama%20de%20Actividades%20-%20Patr%C3%B3n%20Composite.png)
+![ClasesComposite](https://github.com/lorenadamc/AnalisisPatrones/blob/c34bc14ddfaecbf9807aea7fd433488e3750c3e3/imagenes/Diagrama%20de%20Clases%20-%20Composite.png)
 
 ## Autores ✒️
 
