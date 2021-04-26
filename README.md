@@ -10,7 +10,7 @@ Los patrones de creación abstraen la forma en la que se crean los objetos, perm
 
 - **Abstract Factory:** Proporciona una interfaz para crear familias de objetos o que dependen entre sí, sin especificar sus clases concretas.
 
-(![](imagenes/Ejemplo Composite.png))
+![CasosdeusoComposite](imagenes/Ejemplo Composite.png)
 
 (![](imagenes/Diagrama de Clases - Composite.png))
 
